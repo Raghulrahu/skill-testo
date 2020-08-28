@@ -1,0 +1,439 @@
+*{
+	box-sizing:border-box;
+	margin: 0;
+	padding: 0;
+}
+*img{
+	width: 100%;
+	max-width: 100%;
+}
+.menus{
+	text-align: center;
+	list-style: none;
+}
+.menus li a{
+	text-decoration: none;
+	color:white;
+}
+.menus li{
+	display: inline;
+	padding: 10px;
+	 
+}
+.top12{
+	width: 30px;
+	height:30px;
+    
+}
+.menucont{
+	background:url("pic4.jpg");
+	background-position:center;
+	padding:25px;
+	width: 100%;
+}
+ .box1{
+	border:1px solid black;
+	width:100px;
+	padding:5px;
+ }
+  .box2{
+	border:1px solid black;
+	width:100px;
+	padding:5px;
+	background-color:yellow;
+ }
+ .boxalign{
+	 display:grid;
+	 grid-template-columns:auto auto;
+	 justify-content:center;
+	grid-column-gap:10px; 
+	
+ }
+ .txtsize{
+	 font-size:70px;
+ }
+ .text1{
+ background:url("pic1.jpg") no-repeat;
+ background-size:cover;
+ width:100%;
+ background-attachment: fixed;
+ height: auto;
+ }
+ 
+ .imgtop{
+	display:grid;
+	justify-content:center;
+	padding: 20px;
+ }
+ .about{
+	 display:grid;
+	 text-align:center; 
+ }
+ .progress1{
+	 display:grid;
+	 grid-template-columns:auto auto auto;
+	 margin:0 auto;
+	 width:80%;
+ }
+ .redprogress{
+	 width:90%;
+	 background-color:gray;
+	 height:10px;
+ }
+ .yellowprogress{
+	width:90%;
+	 background-color:gray; 
+	 height:10px;
+ }
+ .blueprogress{
+	width:90%;
+	 background-color:gray;
+	 height:10px;
+ }
+ .redprg{
+ background-color:red;
+ width:50%;
+ height:10px;
+ }
+.yellowprg{
+ background-color:yellow;
+ width:75%;
+ height:10px;
+ }
+.blueprg{
+ background-color:blue;
+ width:90%;
+ height:10px;
+}
+.project1{
+display:grid;
+height:200px;
+background-color:#8080801a;
+justify-content:center;
+align-content:center;
+TEXT-ALIGN:center;
+}
+.imgcont1{
+display:grid;
+grid-template-columns:auto auto auto auto;
+}
+.testinominalsimg{
+background:url(testo3.jpg);
+background-position:bottom;
+
+}
+.testobgclr{
+	background-color:#ad0404b3;
+	color:white;
+	
+}
+	
+.testinominals1{
+display:grid;
+grid-template-columns:auto;
+justify-content:center;
+TEXT-ALIGN:center;
+margin:0 auto;
+width:70%;
+padding:50px;
+}
+.testoimg{
+	width:180px;
+	height:180px;
+	border-radius:100%;
+	margin:0 auto;
+	padding:30px;
+}
+.services1{
+	display:grid;
+	grid-template-columns:auto auto auto;
+	text-align:center;
+	jstify-content:center;
+}
+.serviceimg{
+	width:60px;
+	height:60px;
+	transform: rotate (60deg);
+}
+.service0{
+	text-align:center;
+}
+.LatestNews{
+	text-align:center;
+	padding:30px;
+}
+.News{
+	background-color:#d4d40b;
+	width:100px;
+	text-align:center;
+	border:1px solid black;
+	margin:0 auto;
+	color:white;
+}  
+.textcolor1{
+color:rgb(70, 245, 221);	
+}
+.service12{
+	display:grid;
+	grid-template-columns:auto auto auto;
+	grid-column-gap:10px;
+	margin:0 auto;
+	width:70%;
+}
+.servicee1{
+	width:100%;
+	height:200px;
+}
+.newstestalign{
+	text-align:center;
+	background-color:white;
+	margin:0;
+}
+.contcolor{
+	background-color:gray;
+}
+.countbg{
+	background:url("b1.jpg");
+}
+.count11{
+	display:grid;
+	grid-template-columns:auto auto auto;
+	background-color:#dbe23959;
+	background-position:center center;
+	justify-content:center;
+	grid-column-gap:250px;
+}
+ 
+.size1{
+font-size:50px;
+}
+.team1{
+	text-align:center;
+	padding:40px;
+}
+.teamimg1{
+	display:grid;
+	grid-template-columns:auto auto auto auto auto auto;
+	align-content:center;
+	margin:0 auto;
+	width:80%;
+	 
+}
+.imgrnd{
+border-radius:100%;
+width:50%;
+height:50%;
+margin:30 30;
+
+}
+.socialimg{
+border-radius:100%;
+width:25px;
+height:25px;
+}
+.whitebg1{
+	background-color:#2b2b2f29;
+}
+.contact1{
+	display:grid;
+	grid-template-columns:auto auto auto;
+	margin:auto;
+	width:80%;
+}
+.cons{
+	width:33%;
+}
+.messagebox{
+	margin:auto;
+	width:80%;	
+}
+.footer1{
+display:grid;
+grid-template-columns:auto auto auto;
+background-color:#1d1b1b;	
+background-size:contain;
+color:white;
+justify-content:space-between;
+}
+.footer1 div ul li{
+	color:#717070;
+	
+}
+.footer1 div ul {
+	list-style:none;
+}
+
+.hover1:hover{
+	background-color:rgb(11, 175, 112);
+	cursor: pointer;
+	width:max-content;
+}
+ .textareaname{
+	 max-width:100%;
+ }
+ 
+ .imgani{
+transition:0.2s ease-in;
+padding: 10px;
+ }
+ .imgani:hover{
+ transform:scale(1.1);
+ }
+ .countn{
+	display:grid;
+	grid-template-columns:auto auto auto;
+	justify-content:space-around;
+	COLOR:WHITE;
+}
+.countbg{
+	background: url("b1.jpg");
+	opacity:1
+	;
+}
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+/* (phones, 576px and down) */
+@media only screen and (max-width: 576px){
+
+ 
+ .txtsize{
+	 font-size:30px;
+ }
+ .text1{
+ 
+ }
+.txtsize{
+	text-align: center;
+}
+.txtsize1{
+	text-align: center;
+}
+.imgcont1{
+	display:grid;
+	grid-template-columns:auto;
+}
+.testinominals1{
+	padding:0px;
+	margin:o;
+}
+.testoimg{
+	padding:5px;
+	 
+}  
+.services1{
+	grid-template-columns: auto;
+}
+.service12{
+	grid-template-columns: auto;
+	grid-row-gap:10px;
+}
+.teamimg1{
+	grid-template-columns: auto;
+	justify-content: center	;
+}
+.imgrnd{
+	 width:80;
+	 height:80;
+	 margin:0;
+	 padding: 0;
+	 text-align: center;
+	 margin-left: 35%;
+}
+.team1{
+	padding: 0;
+}	
+.footer1{
+	grid-template-columns: auto;
+	justify-content: center;
+
+}
+.contact1{
+	grid-template-columns: auto;
+	
+}
+.count11{
+	grid-template-columns: auto;
+}
+.progress1{
+	display:grid;
+	grid-template-columns:auto;	 
+}
+.redprogress,.yellowprogress,.blueprogress{
+	margin-bottom: 25px;
+}
+ 
+
+}
+
+ /* (portrait tablets and large phones, 576px and up) */
+ @media only screen and (min-width: 576px){
+	.txtsize{
+		font-size:40px;
+	}
+	.imgcont1{
+		display:grid;
+		grid-template-columns:auto auto;
+	}
+ 
+	.teamimg1{
+		grid-template-columns: auto;
+		justify-content: center	;
+	}
+
+
+	}
+/* (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.txtsize{
+		font-size:55px;
+	}
+	.imgcont1{
+		display:grid;
+		grid-template-columns:auto auto auto auto;
+	}
+	.teamimg1{
+		grid-template-columns: auto auto auto auto auto auto;
+		justify-content: center	;
+	}
+}
+/* (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	 
+	}
+/* (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
